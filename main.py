@@ -6,8 +6,6 @@ import openai
 from openai import OpenAI
 import custom_functions
 from waitress import serve
-
-# Check OpenAI version compatibility
 from packaging import version
 
 required_version = version.parse("1.1.1")
